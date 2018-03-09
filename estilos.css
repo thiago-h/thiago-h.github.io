@@ -1,0 +1,139 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    /*background-color: #9999ff;*/
+    background-image: url('Midia/Imagens/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.semMargem
+{
+    margin: 0px;
+    padding: 0px;
+}
+.divTopo
+{
+    position: fixed;
+    top: 0px;
+    height: 5vw;
+    width: 100vw;
+    /*background-color: #0000aa;*/
+    margin: 0px;
+    padding: 0px;
+    background-image: url('Midia/Imagens/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.divLateralEsquerdo
+{
+    position: fixed;
+    top: 5vw;
+    float: left;
+    height: 90vh;
+    width: 5vw;
+    background-color: #0000aa;
+}
+.divInternoDivTopo
+{
+    float: left;
+    width: 20vw;
+    margin: 1% 0% 0% 2%;
+    padding: 0;
+    text-align: center;
+    font-size: 2vw;
+}
+.figuraEsquerdaDivTopo
+{
+    float: left;
+    width: 5vw;
+    margin: 0px;
+    padding: 0px;
+}
+.figuraCentroDivLateral
+{
+    width: 5vw;
+    margin: 3vw 0 0 0;
+    padding: 0px;
+}
+.fonteDivTopo
+{
+    color: #000000;
+}
+.fonteDivLateralEsquerdo
+{
+    color: #000000;
+}
+.fonteConteudoDestaque
+{
+    color: #000000;
+    text-align: center;
+}
+.fonteConteudoDescricao
+{
+    color: #000000;
+}
+.menuSelecionado
+{
+    color: #ffffff;
+}
+.divCertificados
+{
+    float: left;
+    width: 20vw;
+    margin-left: 10vw;
+    background-color: #eeffff;
+}
+.certificados
+{
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+}
+.divConteudoCertificados
+{
+    width: 90vw;
+    margin-top: 2vw;
+    overflow: hidden;
+}
+.divConteudo
+{
+    width: 80vw;
+    margin-top: 7vw;
+    margin-left: 15vw;
+    overflow: hidden;
+}
+.divTexto
+{
+    margin-left: 25vw;
+    margin-top: 30vh;
+    width: 50vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.divCurriculo
+{
+    width: 94.1vw;
+    margin-top: 5vw;
+    height: 150vh;
+    float: right;
+}
+.link
+{
+    font-weight: bolder;
+    padding: 0px;
+    margin: 0px;
+}
+.linkCorTexto
+{
+    color: #000000;
+}
+.botaoDownload
+{
+    position: absolute;
+    width: 20vw;
+    height: 5vw;
+    left: 45%;
+}
